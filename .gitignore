@@ -1,0 +1,7 @@
+.DS_Store
+configstore/
+dotfiles/
+gcloud/
+gtk-2.0/
+kitty.bk/
+kitty/
