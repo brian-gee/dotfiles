@@ -23,4 +23,4 @@ If you have suggestions for improving my dotfiles, please open an issue or a pul
 
 ## License
 
-This project is licensed under the MIT License. See `LICENSE` for more information.
+This project is licensed under the GNU General Public License v3.0. See `LICENSE` for more information.
