@@ -1,0 +1,51 @@
+#!/bin/sh
+
+# Use neovim for vim if present.
+[ -x "$(command -v nvim)" ] && alias vim="nvim" vimdiff="nvim -d"
+
+# Verbosity and settings that you pretty much just always are going to want.
+alias \
+	c="clear" \
+	cp="cp -iv" \
+	mkd="mkdir -pv" \
+	mv="mv -iv" \
+	python="python3" \
+	pip="pip3" \
+	rm="rm -vI" \
+	y="yarn"
+
+# Colorize commands when possible.
+alias \
+	ls="ls" \
+	grep="grep --color=auto" \
+	diff="diff --color=auto"
+
+# These common commands are just too long! Abbreviate them.
+alias \
+	ka="killall" \
+	b="brew" \
+	bi="brew install" \
+	bu="brew upgrade" \
+	bs="brew services" \
+	bsr="brew services restart" \
+	skr="skhd --reload" \
+	ch="chmod +x" \
+	ven="source venv/bin/activate"
+
+# Git commands
+alias \
+	g="git" \
+	ga="git add" \
+	gaa="git add -A" \
+	gs="git status" \
+	gc="git commit -m" \
+	gp="git push" \
+	gb="git branch"
+
+# Firebase
+alias \
+	fb="firebase deploy"
+
+# Netlify
+alias \
+	nd="netlify dev"
